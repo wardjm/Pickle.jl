@@ -1,5 +1,20 @@
 # Pickle.jl
 
+<!-- wardjm-fork-note -->
+> [!NOTE]
+> **This is a maintained fork of [chengchingwen/Pickle.jl](https://github.com/chengchingwen/Pickle.jl).** The upstream package is no longer
+> actively updated, so I'm keeping this fork working with current Julia and current versions of its
+> dependencies (StridedViews 0.5). The fork keeps the original package name and UUID but is not
+> registered in General, so install it by URL:
+>
+> ```julia
+> using Pkg
+> Pkg.add(url = "https://github.com/wardjm/Pickle.jl")
+> ```
+>
+> Issues and pull requests are welcome on this fork.
+
+
 [![Build status](https://github.com/chengchingwen/Pickle.jl/workflows/CI/badge.svg)](https://github.com/chengchingwen/Pickle.jl/actions)
 [![codecov](https://codecov.io/gh/chengchingwen/Pickle.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/chengchingwen/Pickle.jl)
 [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://chengchingwen.github.io/Pickle.jl/dev/)
